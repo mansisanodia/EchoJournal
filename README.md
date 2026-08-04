@@ -187,11 +187,4 @@ GET  /api/dashboard                 — Full analytics + mood trends
 
 ---
 
-## 🎯 Why EchoJournal Stands Out
 
-1. **Full-stack depth** — MERN architecture, REST APIs, JWT, deployment
-2. **AI integration** — Whisper STT, Gemini LLM, structured JSON prompting
-3. **Security** — AES-256 encryption, bcrypt, rate limiting, CSP headers
-4. **Data engineering** — Time-series aggregation, trend detection, analytics
-5. **System design** — Service separation, cron scheduling, scalable patterns
-6. **Product thinking** — Solves real friction: voice-first, private journaling
