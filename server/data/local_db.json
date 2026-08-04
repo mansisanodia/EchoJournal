@@ -1,0 +1,699 @@
+{
+  "users": [
+    {
+      "_id": "usr_1784891575578_0dmdf",
+      "name": "Alex Morgan",
+      "email": "alex_1784891575488@echojournal.io",
+      "password": "$2a$10$K3dDfvZI79upCKRng8yhAebM6AaQiu4gfI26dA5DRs97VvCye24YO",
+      "preferences": {
+        "darkMode": true,
+        "dailyReminderTime": "20:00",
+        "emailNotifications": true,
+        "aiAdviceTone": "Empathetic & Supportive"
+      },
+      "createdAt": "2026-07-24T11:12:55.578Z"
+    },
+    {
+      "_id": "usr_1784891766982_htbfy",
+      "name": "Alex Morgan",
+      "email": "alex_1784891766905@echojournal.io",
+      "password": "$2a$10$eSaZV9QxvQ2NvXKSFomHmeqpu.GnvYvL/beYpL.W6dyzaVh3K51Sa",
+      "preferences": {
+        "darkMode": true,
+        "dailyReminderTime": "20:00",
+        "emailNotifications": true,
+        "aiAdviceTone": "Empathetic & Supportive"
+      },
+      "createdAt": "2026-07-24T11:16:06.982Z"
+    },
+    {
+      "_id": "usr_1784891849392_rwpr1",
+      "name": "Alex Morgan",
+      "email": "demo@echojournal.io",
+      "password": "$2a$10$lWlvqk2u8H4VjK9NiSfbkOVArU3NlDsXtpkDF.z2NvmmzygAFRq/6",
+      "preferences": {
+        "darkMode": true,
+        "dailyReminderTime": "20:00",
+        "emailNotifications": true,
+        "aiAdviceTone": "Empathetic & Supportive"
+      },
+      "createdAt": "2026-07-24T11:17:29.392Z"
+    },
+    {
+      "_id": "usr_1784892050525_ee5xf",
+      "name": "mansi sanodia",
+      "email": "sanodiamansi.1911@gmail.com",
+      "password": "$2a$10$I1Q5O9JNxiJWQ5h2QdofA.bg4brS2MVZ9LVLziHFIkc30kZt/ueKW",
+      "preferences": {
+        "darkMode": true,
+        "dailyReminderTime": "20:00",
+        "emailNotifications": true,
+        "aiAdviceTone": "Empathetic & Supportive"
+      },
+      "createdAt": "2026-07-24T11:20:50.526Z"
+    }
+  ],
+  "journals": [
+    {
+      "_id": "jnl_1784891575594_wgg8j",
+      "userId": "usr_1784891575578_0dmdf",
+      "encryptedText": "aca3b8fe416bea4a397d65a7472ac26f2fa343e2e6d29826fb7443afc0b03ab9a624c3703b6ccf82e8d6e3c270dd3daff56c2bec7200dc226b932c2005d3cfcba9a03515636de843c3bce673ab79ed25889a182ca65c7a7dd526636f52f9af38a564baaa041f87d49155eda856a7e71a",
+      "iv": "7454f0e195a184cff1b851199cfe1138",
+      "date": "2026-07-24T11:12:55.594Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891575594_nkq4n",
+      "tags": [
+        "Work",
+        "Sleep"
+      ]
+    },
+    {
+      "_id": "jnl_1784891575601_nbj05",
+      "userId": "usr_1784891575578_0dmdf",
+      "encryptedText": "d5e8e09ef71f25df51124210808243a3f098f4f466aedc050966d7abdac5ef88c967c3270412d0ac736eb2761e48abf3371e167fc89102fc6fa335b2df984f52aa6f6415e38b1368bc1e1c46f4cdd33e9aceaa71d89d5c64ae935cb24795a50fb2cb28ef868b4b89ed3ac20b9dfa8b2e4e444a8912fc68704b6f72e0ec44884c",
+      "iv": "225af5e41ebb745d5581c34a687afc38",
+      "date": "2026-07-24T11:12:55.601Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891575601_bu7mv",
+      "tags": [
+        "Fitness",
+        "Gratitude"
+      ]
+    },
+    {
+      "_id": "jnl_1784891766987_mme7b",
+      "userId": "usr_1784891766982_htbfy",
+      "encryptedText": "f33dbe94be33f9af81fe8714717461f0c8beaebc158dfe0711f5a9f3ec2b6c651c3671abd25ea3dc88b05c92501ad347181cf42dcef0b857cf556b32591d3587b89b8468a9518648a39bd020c53c14794ef0ac410aae0b2245d6f627d33eedb0172a49b5f8fb2e10d7a526539faca8e0",
+      "iv": "73a41cd3c6280c6d726465750a5f8944",
+      "date": "2026-07-24T11:16:06.987Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891766987_7tjuc",
+      "tags": [
+        "Work",
+        "Sleep"
+      ]
+    },
+    {
+      "_id": "jnl_1784891766992_wkwrk",
+      "userId": "usr_1784891766982_htbfy",
+      "encryptedText": "76e944d36ef44822c869a85920351bd1d13c255ea05074e8ea154e4998d0d7769c19434916c56309ca6e51af446728ba3b3e3e93e0efc427a4a25336c73dbce7a63b7146f6de9f192c6fe3ae05c47de367f420ef3fe542309e5f5791425eb601938b9de453657ee34d446b9f6da076fc43833140e6a0a42471d4dc28e2e939c6",
+      "iv": "adc6f1489d1b318db16941e18ad37312",
+      "date": "2026-07-24T11:16:06.992Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891766992_0jorc",
+      "tags": [
+        "Fitness",
+        "Gratitude"
+      ]
+    },
+    {
+      "_id": "jnl_1784891849402_36wgp",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "b9774a9ab9648535d8055f0c167a8d42c21179ece9738080f182f2f8b1e5434372d6c04403a320d764c7fe8c5c26de2fea5f726253567688c9f89f743fbe25712ba292a951b75032ad84361e8fba876efaf19a0123edec443322fc5269e9653b6323cc51fbbda2177a7550c1d8837226d5cbdad477a88802a5117acd3d60abd3ef9ba052e67acc1d17a16a5fc069de84c6899e66a6cb174f374ebc10bbb4cfe83f2e847dbff204e3c1a813a6f3160e58",
+      "iv": "68b03ee6f9bcbcb683fba80d313c2253",
+      "date": "2026-07-24T11:17:29.402Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891849402_2ij6v",
+      "tags": [
+        "Work",
+        "Sleep"
+      ]
+    },
+    {
+      "_id": "jnl_1784891849616_jtgqs",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "6d24c9cf07d863662568072d162c15cf704f5cf90347754f625cfe939864eda1e7ac7bd4f577d290ba7c3886506c4d2249ab6e3bdba39fbe8a6317a37c54520415e2b40e62d08158287a00ce04e169fbde02c1c282c7416f3add0ff4f891e818c382655d13ccf4dfbc6be7ef7e08b820818d1de4021e07bda5949ec4b1af9f528d2b59b5ff8b15a4dac1c3b43131aeb5493c718757065479b7a22703247862de",
+      "iv": "023cab96b71e5f4cefced7be60fe5b8b",
+      "date": "2026-07-24T11:17:29.616Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891849616_87wuo",
+      "tags": [
+        "Fitness",
+        "Health"
+      ]
+    },
+    {
+      "_id": "jnl_1784891849832_52um6",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "7a42b9929e54fcbfe2517f2726e43e3a8e07303ee603b2af085a653c647a873ff12cb6d90d67d574ff06e3582395e07021271906141254956b415e48a1ccace3d0c9f3f60f7f0f6e6e97eb844b1c455842471b56f8bb88b94ad59b8c23295680d3880fa412763aab3077ee8c5103df6f549b50c8d022f64298d95a31fab3eda302b3b698f135aee1a88c3603889f4a03997837af40476ec8eba5fef97e4a0b4a",
+      "iv": "31e527e1260af7d1c8666857194928b7",
+      "date": "2026-07-24T11:17:29.832Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891849832_a0e99",
+      "tags": [
+        "Family",
+        "Gratitude"
+      ]
+    },
+    {
+      "_id": "jnl_1784891850050_4wi39",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "be5e26c910720ac1e731dd307b7ac24c00f84af236ffa006b6507efcf212735c184bb7a325d74845788b3ee0a03a2326d11739f9e2e9eabbd5aa725fc2fe1ff54416c25bd9a68740e5d808dbf101e30e21f85fa21bc8b4d6ebf222fd67935769ff406eb8270bd0ed4933c603b791f0ecde847944847f7e497d0f406147cd9d86d8384cdcf3fcd7bea59efd0a62a6d9ff2fbe45163a2a53f1c7a1478f765b93e854b17f2679ce738c2f036281c9e94da8",
+      "iv": "632e8bb96316c8f7767b4c7af6d51c80",
+      "date": "2026-07-24T11:17:30.051Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891850050_lz4he",
+      "tags": [
+        "Work",
+        "Personal Growth"
+      ]
+    },
+    {
+      "_id": "jnl_1784891850267_148by",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "3b882c7fc743e46c6e2fa4bbd580ebfd95bb2aea787ae1ad4cca5c83d863ab3ad9e644c37bd0b503bcecb36d2986803312afd119aafcf2e0b2d6bbd5c24de89efcee3ae907a683bedb5ec944a5b66de7251891002b426514bfb30eb8ed9581b84b5eac8f72e3b8608039fa802860343aeaa03958e46ad0e5892e2f021be6224100c93abfa7d9e87605723f932cf8543497575eccade7cb124ae0ed496d3c0b52",
+      "iv": "9e5295efb6a3898766302630d980734a",
+      "date": "2026-07-24T11:17:30.267Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891850267_vbhsc",
+      "tags": [
+        "Health",
+        "Personal Growth"
+      ]
+    },
+    {
+      "_id": "jnl_1784891850484_n32ia",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "9452ae42c208e26196326a78bcd379434e4a4f56074af6d5ab2eaee4b3f4bb34c90621593d068901e0034a09c1bf72b672c99fb03e253ccc676e22e5d183f2be7d8d76f19b27cc14194f7ce7e89529ebcc60aab125a21f05e9752930f0085cabe3c2889dfe2e4c5e95c2318d2cda7730e1ff71f4989e0a8af3afb4f87d54910ad178b1554ca0f80684fa91866cc3de9a74b2003ea66c5e4a3e87ee5e3f140c7d1bf33dc20917baf42251496897b45b21",
+      "iv": "a183fe43524cc838479fced84b769686",
+      "date": "2026-07-24T11:17:30.485Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891850484_50fh0",
+      "tags": [
+        "Sleep",
+        "Work"
+      ]
+    },
+    {
+      "_id": "jnl_1784891850700_p5gn6",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "819f3bef2c26d6c92656ebde467c79d2e96a7e1d7ce0fd2b1d6f8bcc439b26fd7c893d161afec7a9a524d163731b9c9103a76cb944bc5793a7871b82886c4c4e55f5cc82e4d1322c49d53f854bad9fec75605ffbea4a891f68ad1125aa3b33bc0465d091ceccece9ed70547ac419de79cbd2480f292b7d2bf5a89b6a30e0b58d00a94d1d93030b5d66c9a7331f3b345ddfc53cc563e343fbb015716bbf8076e7",
+      "iv": "9b1431db8c0e30780222a9c68976f68b",
+      "date": "2026-07-24T11:17:30.700Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891850700_tyicj",
+      "tags": [
+        "Work",
+        "Gratitude"
+      ]
+    },
+    {
+      "_id": "jnl_1784891850904_6irm8",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "9779ec57be9b298e76a85786431314cee458dd1b3c31ad9d2586d51a9a1aa1c22f548ce26650bf5ba7b6d230803a725d044d65865f042704ba27de684b074071b7b017d700f161bced3f619a6028380db9f570d36646254a12c9b9d5f054a9946187c89c42d71826e96de15da94368dd0f6e343263209825b66ba9949f3f44c66ea6c0c9375408e4ee637855426e141d4d0f49ea02a67cc788dd1cfea27287dc",
+      "iv": "9dd6d9c117a736b43a17f0b9f0f1ad91",
+      "date": "2026-07-24T11:17:30.904Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891850904_34p8x",
+      "tags": [
+        "Health",
+        "Relationships"
+      ]
+    },
+    {
+      "_id": "jnl_1784891851122_8keq7",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "3b81dae00aa5c5b3ec9efb0f98fcc94fc27b1c9866321d42cd58bc141ff4a8f5e0c9f562cce043d6392c0c30c4df9389c82432960eef90e8ecec942dedbc09d041b50f8ae92f73fafa66c7ad29cf872cc8454391cff387f0e62030125e6c457380cc9899cb16811a3755df79b63cb26d3659e18a3fd682275db6562ddb93605cdf927b7f7905342b4c15ec41aa69a516639ae1cc8d50530362cc79d5dc1226d9e74102522d5d8c8e5347d66ff055f140",
+      "iv": "14a9bbe59f212bbed9ad696fa2d350f4",
+      "date": "2026-07-24T11:17:31.122Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891851122_awamp",
+      "tags": [
+        "Relationships",
+        "Personal Growth"
+      ]
+    },
+    {
+      "_id": "jnl_1784891851328_yl1w8",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "c8cf908a2f1a0d5436f6a9b1e9a9e2065495de486c43c8a373938f4fd94ba692190e85a70167bd24a224cd9c340eae9cf4e13cf2692d5c669b79956da792b276326d308b2207c7edbd69693f6a06ca2f7d5bfb67b425f12cf251927b2225b217b3c40bf989135a3d08eb0f67a558c6f6b4ee116ad22f39b35308cfabcda9418d344eae0a57f015bfc802fa6c4705b863807e86f9e4305f3d90dcab6e3b23063e7ad995831b2d95970e040793c991542d",
+      "iv": "079ca77813027318e163c2fbac26f991",
+      "date": "2026-07-24T11:17:31.328Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891851328_lsrkj",
+      "tags": [
+        "Work",
+        "Sleep",
+        "Health"
+      ]
+    },
+    {
+      "_id": "jnl_1784891851547_kfo3q",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "78594e3fd8167b2e61599d51161663755b84b2538cb79f2d2685a4b2910a682afd04bf4beca5c8250d6dd22e6c77be2ff0d5a8ce3f9f861c06d27907a71fcb09ec67d5978f081e4af63338e4ee613b7576e3724c4a116fef8bb2d7481412dc82e9640ef7a25c209a9bf13e6908bc882c189f56094b9c51f5db3128a9be4608f12039b5d2eb6d0cb146277eff947432296d3de0fee52591d15e2234b1626b45fd090c9aabee0c516781df3ebee6eff6f1",
+      "iv": "e48cbd769fbff68454faa91d82711b63",
+      "date": "2026-07-24T11:17:31.547Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891851547_t6wl3",
+      "tags": [
+        "Personal Growth",
+        "Health"
+      ]
+    },
+    {
+      "_id": "jnl_1784891851764_6izls",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "4de2baca44bce487f8be7e1c1af4490058bc8f3dc488f8fcd68cfe4a4d1ef5476640fad9bf17ac0995c7874dc0e82aec9c8df931319c1f766d7923b9d9368aaeb80a96333349d466a0cbd97a770fb24ab344f2b05247386a685d875173304a75e53f44d482ec74c91c0c27e7ceefd9883ed330ed3c37d80d0e06768eb37004010f3bc909be971986f5e96147c2923f64fbad744da46c7a6b2dbca02f76ba78d8064d475f6b2e391d8ee4d76c575327b3",
+      "iv": "28b0e4957961cd778bd34ee6cf2b9f74",
+      "date": "2026-07-24T11:17:31.764Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891851764_v0tjj",
+      "tags": [
+        "Sleep",
+        "Health"
+      ]
+    },
+    {
+      "_id": "jnl_1784891851982_w5w95",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "ebea39138f75f029f7ada4a843a6ab639fa6ed21a2a4f19b1a7f923443454971b1aeaa41e4cd04387641f060c200b2bd13b394e37844c6aa00f455bf995e803d28468d47fb949fd2e571cc3bb8b2d3708fe146cd1cc7e57efd299da59449036bcaab94f78f3edf9ccd68e551b553cd6077171e18077d5b0adb88e07a5726301a633ddef5cbf4cef97dd2a987e7aba7a552643b68ea76239fc9e3b3a19b49e1e7",
+      "iv": "6727342083d12418bf9d82104f76ecaf",
+      "date": "2026-07-24T11:17:31.982Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891851982_7gcwv",
+      "tags": [
+        "Relationships",
+        "Gratitude"
+      ]
+    },
+    {
+      "_id": "jnl_1784891852200_ukb9r",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "bbfa427313c7930072d26115ee799b0eef93323b01f6f0ea312d81b414f1a0b06ca0f931624c0e035df66a455861fac5a7e06424aa9a0fd4ee47f809930084066544e4dadf65e961de3821f57a45a66230c944071e2b9120b560952cfa750fe140385bded5a335c8e23c6e748dbdb7049db9f8f9656f2c34c0d97414ade696c1788e1b978549314d5b520d702b4f1b51991ee23c8ff6c3b7bfb888910e7961cf",
+      "iv": "c6c72374171228eb65cea08d39e100e4",
+      "date": "2026-07-24T11:17:32.200Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891852200_v104l",
+      "tags": [
+        "Work",
+        "Personal Growth"
+      ]
+    },
+    {
+      "_id": "jnl_1784891852417_d9mhm",
+      "userId": "usr_1784891849392_rwpr1",
+      "encryptedText": "80d9d261f8e4a1f584e65f964ff078ec39344e7a31096336bdf11b5689623c94a2f3e42155840ea8b9e3e0e2ebd013ddcf2a6f19f61383505f76d9fb3e33e70d1dc77ffc2b37d838a301ad8b2ca7932d2a1589bbf6d8b57984cfd6105df3f913218cca22fa900a064cfa6765754ebda662378b8c1a824f8db928a5161d6db96e3ea0e9d760e48a486617ab5b04d71d031cf4ed3abaa8e0d70738a28727bb187bf0daf0f51b7048edfc81041b710c0688",
+      "iv": "68f0194b1ffe33c454d22a06893f3078",
+      "date": "2026-07-24T11:17:32.417Z",
+      "audioURL": "",
+      "analysisId": "anl_1784891852417_5d8hd",
+      "tags": [
+        "Gratitude",
+        "Personal Growth"
+      ]
+    }
+  ],
+  "analyses": [
+    {
+      "_id": "anl_1784891575594_nkq4n",
+      "journalId": "jnl_1784891575594_wgg8j",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 95,
+      "positivityScore": 10,
+      "topics": [
+        "Work",
+        "Sleep"
+      ],
+      "keywords": [
+        "been",
+        "stressed",
+        "because",
+        "work"
+      ],
+      "summary": "I've been stressed because of work deadlines and a big project launch. I also couldn't sleep well yesterday.",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:12:55.594Z"
+    },
+    {
+      "_id": "anl_1784891575601_bu7mv",
+      "journalId": "jnl_1784891575601_nbj05",
+      "emotion": "Joy",
+      "sentiment": "Positive",
+      "stressScore": 15,
+      "positivityScore": 86,
+      "topics": [
+        "Work",
+        "Health"
+      ],
+      "keywords": [
+        "fantastic",
+        "morning",
+        "workout",
+        "went"
+      ],
+      "summary": "Had a fantastic morning workout and went for a peaceful walk in nature. Feeling extremely grateful and energized!",
+      "advice": "Keep harnessing this positive momentum! Documenting your gratitude helps maintain emotional resilience.",
+      "createdAt": "2026-07-24T11:12:55.601Z"
+    },
+    {
+      "_id": "anl_1784891766987_7tjuc",
+      "journalId": "jnl_1784891766987_mme7b",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 95,
+      "positivityScore": 10,
+      "topics": [
+        "Work",
+        "Sleep"
+      ],
+      "keywords": [
+        "been",
+        "stressed",
+        "because",
+        "work"
+      ],
+      "summary": "I've been stressed because of work deadlines and a big project launch. I also couldn't sleep well yesterday.",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:16:06.987Z"
+    },
+    {
+      "_id": "anl_1784891766992_0jorc",
+      "journalId": "jnl_1784891766992_wkwrk",
+      "emotion": "Joy",
+      "sentiment": "Positive",
+      "stressScore": 15,
+      "positivityScore": 86,
+      "topics": [
+        "Work",
+        "Health"
+      ],
+      "keywords": [
+        "fantastic",
+        "morning",
+        "workout",
+        "went"
+      ],
+      "summary": "Had a fantastic morning workout and went for a peaceful walk in nature. Feeling extremely grateful and energized!",
+      "advice": "Keep harnessing this positive momentum! Documenting your gratitude helps maintain emotional resilience.",
+      "createdAt": "2026-07-24T11:16:06.992Z"
+    },
+    {
+      "_id": "anl_1784891849402_2ij6v",
+      "journalId": "jnl_1784891849402_36wgp",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 90,
+      "positivityScore": 10,
+      "topics": [
+        "Work",
+        "Sleep"
+      ],
+      "keywords": [
+        "terrible",
+        "monday",
+        "work",
+        "deadlines"
+      ],
+      "summary": "Had a terrible Monday. Work deadlines are piling up and I barely slept last night. My manager assigned two new projects ...",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:17:29.402Z"
+    },
+    {
+      "_id": "anl_1784891849616_87wuo",
+      "journalId": "jnl_1784891849616_jtgqs",
+      "emotion": "Calm",
+      "sentiment": "Neutral",
+      "stressScore": 35,
+      "positivityScore": 65,
+      "topics": [
+        "Health"
+      ],
+      "keywords": [
+        "went",
+        "today",
+        "first",
+        "time"
+      ],
+      "summary": "Went to the gym today for the first time in weeks. Felt amazing afterwards! My energy is much better and I'm feeling hop...",
+      "advice": "Keep harnessing this positive momentum! Documenting your gratitude helps maintain emotional resilience.",
+      "createdAt": "2026-07-24T11:17:29.616Z"
+    },
+    {
+      "_id": "anl_1784891849832_a0e99",
+      "journalId": "jnl_1784891849832_52um6",
+      "emotion": "Joy",
+      "sentiment": "Positive",
+      "stressScore": 15,
+      "positivityScore": 86,
+      "topics": [
+        "Relationships"
+      ],
+      "keywords": [
+        "call",
+        "great",
+        "with",
+        "family"
+      ],
+      "summary": "Had a great call with my family this evening. My mom cooked my favorite dish and we laughed a lot over video call. Feeli...",
+      "advice": "Keep harnessing this positive momentum! Documenting your gratitude helps maintain emotional resilience.",
+      "createdAt": "2026-07-24T11:17:29.832Z"
+    },
+    {
+      "_id": "anl_1784891850050_lz4he",
+      "journalId": "jnl_1784891850050_4wi39",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 90,
+      "positivityScore": 10,
+      "topics": [
+        "Work"
+      ],
+      "keywords": [
+        "work",
+        "pressure",
+        "continues",
+        "missed"
+      ],
+      "summary": "The work pressure continues. Missed two deadlines today. My boss wasn't happy. I'm starting to question if I'm cut out f...",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:17:30.051Z"
+    },
+    {
+      "_id": "anl_1784891850267_vbhsc",
+      "journalId": "jnl_1784891850267_148by",
+      "emotion": "Calm",
+      "sentiment": "Neutral",
+      "stressScore": 35,
+      "positivityScore": 65,
+      "topics": [
+        "Personal Growth"
+      ],
+      "keywords": [
+        "this",
+        "meditated",
+        "minutes",
+        "morning"
+      ],
+      "summary": "Meditated for 20 minutes this morning. It helped calm me down significantly. Going to make this a daily habit. Feeling c...",
+      "advice": "Keep harnessing this positive momentum! Documenting your gratitude helps maintain emotional resilience.",
+      "createdAt": "2026-07-24T11:17:30.267Z"
+    },
+    {
+      "_id": "anl_1784891850484_50fh0",
+      "journalId": "jnl_1784891850484_n32ia",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 90,
+      "positivityScore": 10,
+      "topics": [
+        "Sleep"
+      ],
+      "keywords": [
+        "couldnt",
+        "sleep",
+        "again",
+        "insomnia"
+      ],
+      "summary": "Couldn't sleep again. Insomnia is getting worse. Kept thinking about the project launch. Got up at 3am and just stared a...",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:17:30.484Z"
+    },
+    {
+      "_id": "anl_1784891850700_tyicj",
+      "journalId": "jnl_1784891850700_p5gn6",
+      "emotion": "Joy",
+      "sentiment": "Positive",
+      "stressScore": 10,
+      "positivityScore": 94,
+      "topics": [
+        "Personal Growth"
+      ],
+      "keywords": [
+        "finally",
+        "presented",
+        "project",
+        "went"
+      ],
+      "summary": "Finally presented the project and it went GREAT! The client loved it. My manager praised me in front of the whole team. ...",
+      "advice": "Keep harnessing this positive momentum! Documenting your gratitude helps maintain emotional resilience.",
+      "createdAt": "2026-07-24T11:17:30.700Z"
+    },
+    {
+      "_id": "anl_1784891850904_34p8x",
+      "journalId": "jnl_1784891850904_6irm8",
+      "emotion": "Joy",
+      "sentiment": "Positive",
+      "stressScore": 20,
+      "positivityScore": 78,
+      "topics": [
+        "Relationships"
+      ],
+      "keywords": [
+        "went",
+        "hiking",
+        "mountains",
+        "with"
+      ],
+      "summary": "Went hiking in the mountains with my friend today. The fresh air and beautiful views completely reset my mood. Nature is...",
+      "advice": "Keep harnessing this positive momentum! Documenting your gratitude helps maintain emotional resilience.",
+      "createdAt": "2026-07-24T11:17:30.904Z"
+    },
+    {
+      "_id": "anl_1784891851122_awamp",
+      "journalId": "jnl_1784891851122_8keq7",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 70,
+      "positivityScore": 30,
+      "topics": [
+        "Work",
+        "Relationships"
+      ],
+      "keywords": [
+        "difficult",
+        "conversation",
+        "with",
+        "close"
+      ],
+      "summary": "Had a difficult conversation with a close friend. We cleared up some misunderstandings. It was emotionally draining but ...",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:17:31.122Z"
+    },
+    {
+      "_id": "anl_1784891851328_lsrkj",
+      "journalId": "jnl_1784891851328_yl1w8",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 80,
+      "positivityScore": 20,
+      "topics": [
+        "Work",
+        "Sleep"
+      ],
+      "keywords": [
+        "time",
+        "feeling",
+        "burnt",
+        "work"
+      ],
+      "summary": "Feeling burnt out. Work is relentless. I have no time for myself. My sleep is suffering. I need a vacation but there's n...",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:17:31.328Z"
+    },
+    {
+      "_id": "anl_1784891851547_t6wl3",
+      "journalId": "jnl_1784891851547_kfo3q",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 70,
+      "positivityScore": 30,
+      "topics": [
+        "Sleep",
+        "Health"
+      ],
+      "keywords": [
+        "started",
+        "book",
+        "about",
+        "mindfulness"
+      ],
+      "summary": "Started a new book about mindfulness. The first chapter already resonated deeply. Going to try the breathing exercises b...",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:17:31.547Z"
+    },
+    {
+      "_id": "anl_1784891851764_v0tjj",
+      "journalId": "jnl_1784891851764_6izls",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 80,
+      "positivityScore": 20,
+      "topics": [
+        "Work",
+        "Sleep"
+      ],
+      "keywords": [
+        "best",
+        "sleep",
+        "weeks",
+        "breathing"
+      ],
+      "summary": "Had the best sleep I've had in weeks! The breathing technique from the book actually worked. Woke up feeling refreshed a...",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:17:31.764Z"
+    },
+    {
+      "_id": "anl_1784891851982_7gcwv",
+      "journalId": "jnl_1784891851982_w5w95",
+      "emotion": "Joy",
+      "sentiment": "Positive",
+      "stressScore": 20,
+      "positivityScore": 78,
+      "topics": [
+        "Relationships"
+      ],
+      "keywords": [
+        "much",
+        "celebrated",
+        "friends",
+        "promotion"
+      ],
+      "summary": "Celebrated my friend's promotion at a dinner party. Laughed so much my stomach hurts. Moments like these remind me why f...",
+      "advice": "Keep harnessing this positive momentum! Documenting your gratitude helps maintain emotional resilience.",
+      "createdAt": "2026-07-24T11:17:31.982Z"
+    },
+    {
+      "_id": "anl_1784891852200_v104l",
+      "journalId": "jnl_1784891852200_ukb9r",
+      "emotion": "Stress",
+      "sentiment": "Negative",
+      "stressScore": 90,
+      "positivityScore": 10,
+      "topics": [
+        "Work"
+      ],
+      "keywords": [
+        "work",
+        "meeting",
+        "tough",
+        "more"
+      ],
+      "summary": "Work meeting was tough. More deadlines added. But I feel stronger than I did last month. I'm handling the pressure bette...",
+      "advice": "Remember to prioritize self-care. Small steps like brief walks or breathing exercises can make a big difference.",
+      "createdAt": "2026-07-24T11:17:32.200Z"
+    },
+    {
+      "_id": "anl_1784891852417_5d8hd",
+      "journalId": "jnl_1784891852417_d9mhm",
+      "emotion": "Joy",
+      "sentiment": "Positive",
+      "stressScore": 15,
+      "positivityScore": 86,
+      "topics": [
+        "Relationships",
+        "Health"
+      ],
+      "keywords": [
+        "woke",
+        "feeling",
+        "genuinely",
+        "happy"
+      ],
+      "summary": "Woke up feeling genuinely happy today. No particular reason. Just grateful for my health, my friends, and the life I'm b...",
+      "advice": "Keep harnessing this positive momentum! Documenting your gratitude helps maintain emotional resilience.",
+      "createdAt": "2026-07-24T11:17:32.417Z"
+    }
+  ],
+  "notifications": []
+}

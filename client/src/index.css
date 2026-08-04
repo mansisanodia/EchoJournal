@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ──────────────────────────────────────────── */
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    color: #1F3322;
+    background-color: #FAFAF5;
+    background-image:
+      radial-gradient(ellipse at 0% 0%,   rgba(107,143,113,0.10) 0%, transparent 55%),
+      radial-gradient(ellipse at 100% 100%, rgba(196,112,79,0.08)  0%, transparent 55%),
+      radial-gradient(ellipse at 50% 80%,  rgba(201,125,14,0.05)  0%, transparent 50%);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Lora', Georgia, serif;
+  }
+}
+
+/* ─── Custom Classes ─────────────────────────────────── */
+.card {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 1.5rem;
+  border: 1px solid #E0EAD9;
+  box-shadow: 0 4px 24px rgba(78, 115, 83, 0.10);
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(78, 115, 83, 0.16);
+  border-color: #BDCFB6;
+}
+
+.card-terra {
+  background: linear-gradient(135deg, #FBF3EE 0%, #F5F3EA 100%);
+  border: 1px solid #F5DDD0;
+}
+.card-honey {
+  background: linear-gradient(135deg, #FEF9EE 0%, #FFFBEB 100%);
+  border: 1px solid #FDEFD0;
+}
+.card-forest {
+  background: linear-gradient(135deg, #F2F5F0 0%, #EEF3EC 100%);
+  border: 1px solid #E0EAD9;
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #4E7353 0%, #6B8F71 50%, #94B08A 100%);
+  box-shadow: 0 4px 20px rgba(78, 115, 83, 0.20);
+  transition: all 0.2s ease;
+}
+.btn-primary:hover {
+  box-shadow: 0 6px 28px rgba(78, 115, 83, 0.30);
+  transform: scale(1.02);
+}
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-terra {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #C4704F 0%, #D98B6A 100%);
+  box-shadow: 0 8px 30px rgba(196, 112, 79, 0.25);
+  transition: all 0.2s ease;
+}
+.btn-terra:hover {
+  box-shadow: 0 10px 35px rgba(196, 112, 79, 0.35);
+  transform: scale(1.02);
+}
+.btn-terra:active {
+  transform: scale(0.98);
+}
+
+.btn-honey {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #C97D0E 0%, #E8A020 100%);
+  box-shadow: 0 8px 30px rgba(201, 125, 14, 0.25);
+  transition: all 0.2s ease;
+}
+.btn-honey:hover {
+  transform: scale(1.02);
+}
+.btn-honey:active {
+  transform: scale(0.98);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #3A5C3E;
+  border: 1px solid #BDCFB6;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.2s ease;
+}
+.btn-ghost:hover {
+  background-color: #F2F5F0;
+  border-color: #94B08A;
+}
+.btn-ghost:active {
+  transform: scale(0.98);
+}
+
+/* Inputs */
+.input-nature {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #BDCFB6;
+  border-radius: 1rem;
+  padding: 0.75rem 1rem;
+  color: #1F3322;
+  transition: all 0.2s ease;
+}
+.input-nature::placeholder {
+  color: #94B08A;
+}
+.input-nature:focus {
+  outline: none;
+  border-color: #6B8F71;
+  box-shadow: 0 0 0 3px rgba(107, 143, 113, 0.2);
+}
+
+/* Badges */
+.badge-sage {
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #E0EAD9;
+  color: #2C4730;
+  border: 1px solid #BDCFB6;
+}
+.badge-terra {
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #F5DDD0;
+  color: #63301E;
+  border: 1px solid #EBBAA0;
+}
+.badge-honey {
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #FDEFD0;
+  color: #724205;
+  border: 1px solid #F9D98A;
+}
+.badge-forest {
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #D2E1CE;
+  color: #142F10;
+  border: 1px solid #A4C39C;
+}
+
+/* Section headings */
+.section-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #6B8F71;
+}
+
+/* Text Gradients */
+.text-gradient-sage {
+  background: linear-gradient(135deg, #2C4730 0%, #4E7353 50%, #6B8F71 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-gradient-terra {
+  background: linear-gradient(135deg, #87422B 0%, #C4704F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-gradient-warm {
+  background: linear-gradient(135deg, #4E7353 0%, #C97D0E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #F5F3EA; }
+::-webkit-scrollbar-thumb { background: #94B08A; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #6B8F71; }
+
+/* Selection */
+::selection { background: rgba(107, 143, 113, 0.25); color: #2C4730; }
